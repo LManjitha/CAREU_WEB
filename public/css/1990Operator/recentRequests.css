@@ -3,32 +3,28 @@ body {
     background-image: url("../../img/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: sans-serif;
+    background-position: center center;
     background-attachment: fixed;
-}
-
-.breadcrum {
-    color: white;
-    background-color: rgb(128, 0, 0, 0.9);
-    padding: 5px 0px 5px 10px;
+    font-family: sans-serif;
 }
 
 .requests {
-    margin: 0.6rem;
+    margin-top: 128px;
+    margin-left: 200px;
     padding: 25px 25px 25px 25px;
     background-color: rgb(255, 255, 255, 0.6);
 }
 
 .userPic {
     float: left;
-    width: 10%;
+    width: 15%;
 }
 
 .brief1 {
     padding-top: 1rem;
     color: black;
     float: left;
-    width: 40%;
+    width: 30%;
 }
 
 .link {
@@ -37,9 +33,9 @@ body {
 
 .brief2 {
     float: left;
-    width: 50%;
+    width: 55%;
     color: black;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .brief2 p {
@@ -97,7 +93,7 @@ body {
 .userPic img {
     width: 10rem;
     height: auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .details img {
@@ -105,7 +101,20 @@ body {
     height: auto;
 }
 
-@media screen and (max-width: 1100px) {
+.name {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.pNumber {
+    font-size: 140%;
+}
+
+.loading {
+    margin: 10rem;
+}
+
+@media screen and (max-width: 1200px) {
     .userPic {
         float: none;
         text-align: center;
@@ -128,8 +137,27 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .brief2 p {
         font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .requests {
+        margin-top: 177px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .requests {
+        margin-top: 228px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .requests {
+        margin-top: 128px;
     }
 }
